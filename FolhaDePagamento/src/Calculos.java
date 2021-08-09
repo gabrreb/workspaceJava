@@ -7,7 +7,16 @@ public class Calculos {
 	private String email;
 	private double salario;
 	
+	//criando um método específico, que só pode ser chamado no momento do NEW
+	// Método construtor e serve geralmente para inicializar valores no objeto
 	
+	public Calculos (int numeroFuncional, String nome, String email, double salario) {
+		this.numeroFuncional= numeroFuncional;
+		this.nome = nome;
+		this.email = email;
+		this.salario = salario;
+		
+	}
 	//gets e sets publicos
 	public int getNumeroFuncional() {
 		return numeroFuncional;
