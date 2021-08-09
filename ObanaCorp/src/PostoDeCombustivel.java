@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PostoDeCombustivel {
 	public static void main(String[] args) {
 		
-		Scanner teclado = new Scanner (System.in);	
+	Scanner teclado = new Scanner (System.in);	
 	//Declarando as variáveis e atribuindo valor e preço para as bombas	
 	Bomba b1, b2, b3;
 	int bomba, colocar;
